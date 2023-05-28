@@ -18,4 +18,5 @@ img {
 	width: 150px;
 	border: 1px black solid;
 	border-radius: 50%;
+	padding: 10px;
 }
