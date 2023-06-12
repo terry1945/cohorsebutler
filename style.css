@@ -4,6 +4,10 @@ h1{
 	text-align: center;
 }
 
+header div{
+	text-align: center;
+}
+
 body{
 	max-width: 800px;
 	margin-left: auto;
@@ -11,7 +15,7 @@ body{
 }
 
 div{
-	text-align: center;
+	text-align: left;
 }
 
 img {
@@ -19,4 +23,19 @@ img {
 	border: 1px black solid;
 	border-radius: 50%;
 	padding: 10px;
+}
+
+p{
+	font-size 14px;
+}
+
+.bgcolor{
+	background-color: yellow;
+}
+footer{
+	font-size 10px;	
+}
+
+footer span{
+	color: red;	
 }
