@@ -30,10 +30,10 @@ p{
 }
 
 .bgcolor{
-	background-color: yellow;
+	background-color: papayawhip;
 }
-footer{
-	font-size 10px;	
+footer .ftr{
+	font-size: 12px;	
 }
 
 footer span{
