@@ -1,38 +1,50 @@
 <!DOCTYPE html>
-<html lang ="en">
-  <head>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <link rel="stylesheet" href="screen.css">
+    <title>Floats1</title>
 </head>
+
 <body>
-<header>
-<h1>Welcome to here!  </h1>
-<p>
-<div>
-	<img src="horsehead.png">
-</div>
-</header>
-</p>
-<div>
-<p>
-This website is a project for a Udemy course I'm doing online. I have a small Ubuntu server I spun up on Linode that I'm using to do the lessons. The web server is Apache. This site will be done initially with html and css and towards the end some java script may be used. 
-</p>
-<p class="bgcolor">
-Right now I'm using vim as the editor on this index html page. I'm on a 2009 mac pro that I bought new. The OS is high sierra. I have Catlina on it but my metal capable gpu went kaput so am back to the original 1G HD5870 it came with. I at times use a m1 mini with whatever the newest crap mac os is current, and a lenovo thinkcenter running ubuntu. I like the unix aspect of macs but I don't like how apple has turned them into ifones.
-</p>
-<p>
-Expect the pages to change often and at times to look pretty crappy as I experiment
-with different css things. At times there may be little sense to the verbage, in that case I'll 
-try to use lorem ipsum.
-</p>
-</div>
-<footer>
-  <p class="ftr">
- &copy<span>not!</span> made with html, css and vim :)
-  </p>
-</footer>
+
+    <div class="container"> 
+        <header>
+            <h1>Welcome to here!</h1>
+            <p>
+                <div>
+                    <img src="horsehead.png">
+                </div>
+                
+            </p>
+        </header>
+    <hr>     
+    <div class="content-area">
+        <div class="main-area">
+            <p>This website is a project for a couple of Udemy courses I'm doing online. I have a small Ubuntu server I spun up on Linode that I'm using to do the lessons. The web server is Apache. This site will be done initially with html and css and towards the end some java script may be used. </p>
+        <p>
+            Right now I'm using vim as the editor on this index html page. I'm on a 2009 mac pro that I bought new. The OS is high sierra. I have Catlina on it but my metal capable gpu went kaput so am back to the original 1G HD5870 it came with. I at times use a m1 mini with whatever the newest crap mac os is current, and a lenovo thinkcenter running ubuntu. I like the unix aspect of macs but I don't like how apple has turned them into ifones.
+        </p>
+        <p>
+            Expect the pages to change often and at times to look pretty crappy as I experiment
+            with different css things. At times there may be little sense to the verbage, in that case I'll 
+            try to use lorem ipsum. As the index html changes I think I'll rename the previous index file and that will maintain a visual history of the changes. 
+            </p>
+        </div>
+            <div class="sidebar">
+                <p>This is the sidebar area. It should show on the right side. but that involves floating boxes and don't think I want that anyway so it just shows like another paragraph. I'll target a color in it for demo purposes.
+                and see if I can get it to work as a second column later today.
+                </p>
+            </div>
+       
+    </div>
+    <hr>
+        <footer>
+            <p>&copy; 2023 - this is the footer</p>
+        </footer>
+    </div>
+
 </body>
 </html>
